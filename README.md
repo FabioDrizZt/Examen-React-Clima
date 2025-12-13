@@ -76,42 +76,6 @@ Completa la funcionalidad en los siguientes archivos:
 - Historial visible en Home y ClimaDetail con enlaces navegables
 - Manejo de errores y estados de carga
 
-## Estructura del Proyecto
-
-```
-react/
-├── src/
-│   ├── components/
-│   │   ├── Header.jsx           # Header con navegación
-│   │   ├── Loading.jsx          # Componente de carga
-│   │   └── ErrorMessage.jsx     # Mensaje de error
-│   ├── pages/
-│   │   ├── Home.jsx             # Página principal (implementar)
-│   │   ├── ClimaDetail.jsx      # Detalle de clima (implementar)
-│   │   ├── Recientes.jsx        # Historial de consultas (implementar)
-│   │   └── NotFound.jsx         # Página 404 (ya implementada)
-│   ├── context/
-│   │   └── HistorialConsultasContext.jsx  # Context API (implementar)
-│   ├── hooks/
-│   │   └── useHistorialConsultas.js        # Custom Hook (implementar)
-│   ├── services/
-│   │   └── api.js               # Servicios API (implementar)
-│   ├── App.jsx                  # Configuración de rutas
-│   ├── main.jsx                 # Punto de entrada
-│   └── index.css                # Estilos globales
-```
-
-## Instalación y Ejecución
-
-```bash
-# Instalar dependencias
-cd react
-npm install
-
-# Iniciar servidor de desarrollo
-npm run dev
-```
-
 ## Entrega
 
 Subir el proyecto a **GitHub** y compartirlo con los siguientes usuarios de GitHub:
