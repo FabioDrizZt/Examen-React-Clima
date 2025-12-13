@@ -1,0 +1,24 @@
+{
+  "name": "examen-react-clima",
+  "version": "1.0.0",
+  "description": "Aplicación de consulta de clima con servidor mock",
+  "type": "module",
+  "main": "mockServer.js",
+  "scripts": {
+    "start": "node mockServer.js",
+    "dev": "node --watch mockServer.js"
+  },
+  "keywords": [
+    "clima",
+    "weather",
+    "api",
+    "mock-server"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {}
+}
