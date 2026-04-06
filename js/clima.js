@@ -1,4 +1,12 @@
-// clima.js
+/**
+ * clima.js
+ * 
+ * Controlador base que muestra el clima leyendo el ID desde la URL.
+ * En React:
+ * - Se usaría `useParams()` de react-router-dom para el ID.
+ * - `useEffect` se dispararía al montar el componente para ejecutar el `fetch`.
+ * - Todo el manejo del DOM manual (innerHTML) se reemplaza por JSX.
+ */
 
 // Función para mostrar el clima de la ciudad seleccionada por ID
 function mostrarClima() {
@@ -27,6 +35,8 @@ function mostrarClima() {
 }
 
 // Función para guardar una consulta en el historial
+// En React: El historial debería ser una variable de estado (`useState`) o manejarse vía Context
+// si se necesita en múltiples componentes. Para persistirlo, se lee/escribe en localStorage junto al `useEffect`.
 function guardarEnHistorial(id, ciudad) {
   let historial = JSON.parse(localStorage.getItem("historialConsultas")) || [];
 

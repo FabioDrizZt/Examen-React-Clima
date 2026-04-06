@@ -1,4 +1,12 @@
-// index.js
+/**
+ * index.js
+ * 
+ * Este archivo controla la página de inicio.
+ * En React:
+ * - `cargarCiudades` se ejecutaría dentro de un `useEffect` usando `fetch`.
+ * - Los <option> se generarían mapeando el array de ciudades usando JSX.
+ * - `manejarFormulario` usaría `useNavigate()` en lugar de `window.location.href`.
+ */
 
 // Función para cargar los datos del JSON y llenar el selector de ciudades
 function cargarCiudades() {
